@@ -1,0 +1,50 @@
+---
+- 
+  id: 1
+  name: פתוח
+  state: open
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: פניות פתוחות.
+- 
+  id: 2
+  name: פתורה
+  state: closed
+  mode: 1
+  sort: 2
+  flags: 0
+  properties:
+    allowreopen: true
+    reopenstatus: 0
+    description: קריאות פתורות
+- 
+  id: 3
+  name: סגור
+  state: closed
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    allowreopen: true
+    reopenstatus: 0
+    description: כרטיסים סגורים. כרטיסים עדיין יהיו נגישים על לוחות לקוח וצוות.
+- 
+  id: 4
+  name: בארכיון
+  state: archived
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: כרטיסים רק זמינים מנהלי אך לא נגישים על תורי כרטיס ולוח הלקוח.
+- 
+  id: 5
+  name: נמחק
+  state: deleted
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: קריאות שסומנו למחיקה. לא נמצאות בתור הקריאות.

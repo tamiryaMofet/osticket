@@ -1,0 +1,7 @@
+---
+advanced:
+  title: جستجوی پیشرفته
+  content: 'Narrow down your search parameters. Once you have selected your advanced search criteria and run the search, you can <span class="doc-desc-title">Export </span> the data at the bottom of the page.'
+export:
+  title: تولید خروجی
+  content: لیست درخواست های فعلی خود را در یک فایل CSV دانلود کنید. فایل CSV توسط برنامه های صفحه گسترده قابل بازگشایی است (برنامه هایی مثل Microsoft Excel، Apple Pages، Open Office، و غیره.).

@@ -1,0 +1,34 @@
+---
+- 
+  type: ticket-status
+  name: סטטוס כרטיס
+  name_plural: מצבי הקריאה
+  sort_mode: SortCol
+  masks: 13
+  notes: סטטוסים של כרטיס
+  properties:
+    title: 'סטטוס כרטיס - מאפיינים'
+    instructions: מאפיינים שניתן לקבוע על סטטוס הכרטיס.
+    flags: 0
+    fields:
+      - 
+        type: state
+        name: state
+        label: מצב
+        sort: 1
+        flags: 487665
+        configuration:
+          prompt: מצב הכרטיס
+      - 
+        type: memo
+        name: description
+        label: תיאור
+        sort: 3
+        flags: 471073
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

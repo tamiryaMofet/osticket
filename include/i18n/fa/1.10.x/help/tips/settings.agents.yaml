@@ -1,0 +1,25 @@
+---
+agent_name_format:
+  title: Agent Name Formatting
+  content: Choose a format for Agents names throughout the system. Email templates will use it for names if no other format is specified.
+staff_identity_masking:
+  title: پوشش هویت کارمند
+  content: اگر فعال شده باشد، نام کارمندان در طول ارتباط با مشتریان پنهان خواهد ماند.
+password_reset:
+  title: سیاست انقضاء رمز عبور
+  content: 'Sets how often (in months) Agents will be required to change their password. If disabled (set to "No expiration"), passwords will not expire.'
+password_expiration_policy:
+  title: سیاست انقضاء رمز عبور
+  content: 'انتخاب کنید بعد از چه مدتی  کارمندان باید گذرواژه خود را تغییر دهند. اگر غیر فعال باشد (<span class="doc-desc-opt"> بدون انقضا</span>) ، گذرواژه منقضی نخواهد شد.'
+allow_password_resets:
+  title: 'اجازه بازنشانی رمز عبور '
+  content: 'Enable this feature if you would like to display the <span class="doc-desc-title">Forgot My Password</span> link on the <span class="doc-desc-title">Staff Log-In Page</span> after a failed log in attempt.'
+reset_token_expiration:
+  title: پنجره تنظیم مجدد رمز عبور
+  content: 'زمان اعتبار <span class="doc-desc-title">رمز تغییر گذواژه</span> را (به دقیقه) مشخص کنید. وقتی کارشناس درخواست <span class="doc-desc-title">تغییر رمز </span>می دهد ، یک رمز به آنها ایمیل می شود که اجازه ی تنظیم مجدد گذرواژه را می دهد.'
+staff_session_timeout:
+  title: مهلت انقضای نشست کارشناسان
+  content: 'Choose the maximum idle time (in minutes) before an Agent is required to log in again. <br><br> If you would like to disable <span class="doc-desc-title">Agent Session Timeouts</span>, enter 0.'
+bind_staff_session_to_ip:
+  title: ثبت اطلاعات IP هر کارشناس در کنار اطلاعات Session
+  content: 'Enable this if you want Agent to be remembered by their current IP upon Log In. <br><br> This setting is not recommened for users assigned IP addresses dynamically.'

@@ -1,0 +1,190 @@
+---
+- 
+  id: 1
+  type: U
+  title: اطلاعات تماس
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: email
+      label: آدرس ایمیل
+      sort: 1
+      flags: 489379
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: نام و نام خانوادگی
+      sort: 2
+      flags: 489379
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: شماره تلفن
+      sort: 3
+      flags: 13057
+    - 
+      type: memo
+      name: notes
+      label: یادداشت های داخلی
+      sort: 4
+      flags: 12289
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: جزئیات درخواست
+  instructions: لطفا مشکل خود را توصیف کنید
+  notes: این فرم به هر تیکت، بدون در نظر گرفتن منبع آن ضمیمه خواهد شد. شما می توانید هر فیلد دلخواهی را به این فرم اضافه کنید که در اینصورت در همه تیکت ها در دسترس خواهند بود و قابل جستجو با امکان فیلتر نمودن توسط جستجوی پیشرفته می شوند.
+  flags: 0
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: خلاصه مشکل
+      sort: 1
+      flags: 489249
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: جزئیات موضوع
+      hint: جزئیات بیشتر در مورد دلایل باز کردن درخواست.
+      sort: 2
+      flags: 480547
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: سطح اولویت
+      flags: 274609
+      sort: 3
+- 
+  type: C
+  title: اطلاعات شرکت
+  instructions: اطلاعات بیشتر در قالب های ایمیل موجود می باشد
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: name
+      label: نام شرکت
+      sort: 1
+      flags: 291233
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: وب سایت
+      sort: 2
+      flags: 12545
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: شماره تلفن
+      sort: 3
+      flags: 12545
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: آدرس
+      sort: 4
+      flags: 12545
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: اطلاعات سازماني
+  instructions: اطلاعات سازمانی کاربر
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: name
+      label: نام
+      sort: 1
+      flags: 489379
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: آدرس
+      sort: 2
+      flags: 13057
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: تلفن
+      sort: 3
+      flags: 13057
+    - 
+      type: text
+      name: website
+      label: وب سایت
+      sort: 4
+      flags: 13057
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: یادداشت های داخلی
+      sort: 5
+      flags: 12289
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  type: A
+  title: جزییات درخواست
+  instructions: لطفا مشکل را شرح دهید
+  notes: این فرم برای ایجاد یک فعالیت استفاده شده است.
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: عنوان
+      flags: 290977
+      sort: 1
+      label: عنوان
+      configuration:
+        size: 40
+        length: 50
+    - 
+      type: thread
+      name: description
+      flags: 282867
+      sort: 2
+      label: توضیحات
+      hint: جزئیات ایجاد فعالیت.

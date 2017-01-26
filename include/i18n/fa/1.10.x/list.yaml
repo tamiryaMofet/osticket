@@ -1,0 +1,34 @@
+---
+- 
+  type: ticket-status
+  name: وضعیت درخواست
+  name_plural: وضعیت تیکت
+  sort_mode: SortCol
+  masks: 13
+  notes: وضعیت تیکت
+  properties:
+    title: وِژگی های وضعیت تیکت
+    instructions: ویژگی هایی که در وضعیت یک درخواست میتوانند تعیین شوند .
+    flags: 0
+    fields:
+      - 
+        type: state
+        name: state
+        label: وضعیت
+        sort: 1
+        flags: 487665
+        configuration:
+          prompt: حالت درخواست
+      - 
+        type: memo
+        name: description
+        label: توضیحات
+        sort: 3
+        flags: 471073
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

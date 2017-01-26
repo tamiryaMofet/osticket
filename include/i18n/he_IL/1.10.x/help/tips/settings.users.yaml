@@ -1,0 +1,23 @@
+---
+client_name_format:
+  title: User Name Formatting
+  content: Choose a format for Users names throughout the system. Email templates will use it for names if no other format is specified.
+client_session_timeout:
+  title: הפסקת session של משתמשים
+  content: 'בחר את זמן הסרק המקסימלי (בדקות) לפני שמשתמש יחויב להתחבר שנית.<br><br>אם ברצונך לבטל <span class="doc-desc-title">הפסקת session של הסגל</span>, הכנס 0.'
+registration_method:
+  title: הגדרות הרשמה
+  content: |
+    <span class="doc-desc-title">שיטת הרשמה</span> ו<span class="doc-desc-title">דרישת הרשמה</span> משומשים יחד כי להגדיר כיצד משתמשים נרשמים וניגשים לפורטל האינטרנטי של מרכז העזרה שלך. הטבלה מתחת מסכמת כיצד שתי ההגדרות מפורשות ע"י המערכת. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" >
+    <tbody style="vertical-align:top;"> 
+    <tr><th>דרישת הרשמה</th> <th>שיטת הרשמה</th> <th>תוצאה</th></tr> 
+    <tr><td>לא</td><td>ציבורי</td> <td>הרשמה מעודדת אך לא מחויבת עבור קריאות חדשות.</td></tr> <tr><td>כן</td><td>ציבורי</td> <td>הרשמה והתחברות דרושות עבור קריאות חדשות </td></tr> <tr><td>לא</td><td>פרטי</td> <td>כל אחד יכול ליצור קריאה, אך רק סוכנים יכולים ליצור חשבונות</td></tr> <tr><td>כן</td><td>פרטי</td> <td>גישת משתמשים היא ע"י הזמנה בלבד</td></tr> 
+    <tr><td>לא</td><td>מבוטל</td> <td>אף אחד לא יכול ליצור חשבון, אך כל אחד יכול לפתוח קריאה. <em>כך osTicket פעלה לפני 1.9</em></td></tr> 
+    <tr><td>כן</td><td>מבוטל</td> <td>בטל קריאות חדשות דרך פורטל האינטרנט</td></tr> 
+    </tbody></table>
+client_verify_email:
+  title: 'חייב אימות דרך דוא"ל'
+  content: 'בטל אפשרות זו על מנת לתת למשתמשיך גישה מיידית לקריאות דרך דף ההתחברות "בדוק מצב קריאה" בפורטל הלקוח. אם מופעל, (ברירת המחדל), משתמשים יחויבו לקבל דוא"ל ולעקוב אחר הקישור בדוא"ל על מנת לצפות בקריאה.<br><br> ביטול אימות דוא"ל עלול לאפשר לצד שלישי (לדוגמא, משתפי פעולה בקריאות) להתחזות לבעלי קריאה.'
+allow_auth_tokens:
+  title: Enable Authentication Tokens
+  content: Enable this option to allow use of authentication tokens to auto-login users on ticket link click.

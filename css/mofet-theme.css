@@ -1,0 +1,88 @@
+#container{
+    background-color: #f2f2f2;
+}
+.ticket-create{
+    color:#349b40;
+}
+.form-header h3,
+.form-header div,
+hr
+
+{
+    display: none;
+}
+.ticket-create-margin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.ticket-create-wrap{
+    background-color: #f2f2f2;
+}
+.cancel-btn{
+    color: #909090;
+    background-color: #f2f2f2;
+}
+.submit-btn,
+.submit-btn:hover
+{
+    background-color: #349b40;
+    font-weight: 300;
+}
+.cancel-btn:hover{
+    background-color: initial;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    color: #909090;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #349b40;
+    box-shadow:    0 1px 0 0 #349b40;
+    color:#909090;
+}
+
+/*input:not([type]):focus:not([readonly]),*/
+input#ticketno[type=text]:focus:not([readonly]),
+input#email[type=email]:focus:not([readonly])
+
+{
+    border-bottom: 1px solid #1576fb;
+    box-shadow: 0 1px 0 0 #1576fb;
+}
+
+.mofet-nav{
+    padding: 15px;
+}
+.status-chk,
+.status-chk:hover{
+    background-color: #1576fb;
+}
+.reset-btn,
+.reset-btn:hover
+{
+    background-color: #fff;
+    color:#909090;
+}
+.input-field label {
+    color: #9e9e9e;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #9e9e9e;
+}
+.dropdown-content li {
+    text-align: right;
+}
+.redactor-editor {
+    direction: rtl;
+}
+.filedrop .dropzone {
+    text-align: center;
+    direction: ltr;
+    padding: 15px !important;
+}
